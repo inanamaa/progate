@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  font-weight: lighter;
+  font-size: 42px;
+  color: #1e3536;
+  margin-bottom: 0px;
+}
+
+.contact h3 {
+  color: #868686;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.contact {
+  text-align: center;
+}
+
+input {
+  font-size: 18px;
+  padding: 15px;
+  margin: 0px 12px 20px 12px;
+  width: 250px;
+  border: 0px #e6e6e6 solid;
+  background-color: #e6e6e6;
+  color: #a6a6a6;
+}
+
+textarea {
+  font-size: 18px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 530px;
+  border: 0px #e6e6e6 solid;
+  background-color: #e6e6e6;
+  color: #a6a6a6;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-submit {
+  background-color: #58d093;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 3px;
+}
+
+footer {
+  height: 100px;
+  background-color: #4a6565;
+  margin-top: 60px;
+  color: #fff;
+}
+
+.footer-left {
+  margin: 25px 0px 25px 75px;
+  float: left;
+  line-height: 20px;
+}
+
+.footer-logo {
+  font-size: 48px;
+  padding-top: 5px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  padding-bottom: 5px;
+  color: #969696;
+}
+
+.footer-list {
+  float: right;
+  margin: 15px 75px 15px 0px;
+  height: 100%;
+}
+
+.fa-facebook-square {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.fa-twitter {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  margin-left: 15px;
+  cursor: pointer;
+}
